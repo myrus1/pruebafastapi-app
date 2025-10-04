@@ -76,6 +76,11 @@ The system follows a modular structure composed of:
 ## Execution Instructions
 
 The application can be built and deployed using standard Docker commands or an automated CI/CD workflow.  
+
+```bash
+  docker compose up --build
+```
+
 Ensure all environment variables and configurations are properly defined before deployment.
 
 ---

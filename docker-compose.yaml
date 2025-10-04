@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   app:
-    image: pruebafastapi-app
+    image: test-deploy-python-api
     container_name: python_container   # nombre del contenedor
     ports:
       - "8000:8000"             # mapea el puerto 8000 del contenedor al host
