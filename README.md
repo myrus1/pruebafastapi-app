@@ -5,6 +5,9 @@
 This project consists of developing and deploying a REST API with an automated pipeline that handles building, testing, and container deployment.  
 The goal is to demonstrate knowledge of DevOps practices, CI/CD workflows, and containerized environments.
 
+FastAPI was chosen as the framework in order to quickly create a functional API prototype.  
+The main focus of this project is not on the business logic itself, but on building and automating the deployment process through containerization and continuous integration.
+
 ---
 
 ## Table of Contents
