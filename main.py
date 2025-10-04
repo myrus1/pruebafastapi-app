@@ -4,4 +4,9 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {{
+  "name": "Facundo Méndez",
+  "role": "SRE / Backend Developer",
+  "location": "Argentina 🇦🇷",
+  "status": "Work in progress"
+}}
