@@ -106,8 +106,8 @@ The REST API provides automatic Swagger documentation available at:
  ## Comand: docker images
 
 ```bash
-  REPOSITORY          TAG       IMAGE ID       CREATED          SIZE
-  pruebafastapi-app   latest    357b3a3ed928   10 minutes ago   161MB
+REPOSITORY          TAG       IMAGE ID       CREATED          SIZE
+pruebafastapi-app   latest    357b3a3ed928   10 minutes ago   161MB
 ```
 
 
