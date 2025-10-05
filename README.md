@@ -87,5 +87,13 @@ Ensure all environment variables and configurations are properly defined before 
 
 ## API Documentation
 
+### API functionality demonstration:
+![screenshot](/img/running-api.png)
+
+### Swagger Screenshot:
+
+![screenshot](/img/swagger-img.png)
+
 The REST API provides automatic Swagger documentation available at:
+[`📂/json`](/json/)
 
