@@ -19,8 +19,9 @@ The main focus of this project is not on the business logic itself, but on build
 5. [Pipeline Stages](#pipeline-stages)
 6. [Execution Instructions](#execution-instructions)
 7. [API Documentation](#api-documentation)
-8. [Next Steps](#next-steps)
-9. [Repository Links](#repository-links)
+8. [Metrics](#metrics)
+9. [Next Steps](#next-steps)
+10. [Repository Links](#repository-links)
 
 ---
 
@@ -97,3 +98,25 @@ Ensure all environment variables and configurations are properly defined before 
 The REST API provides automatic Swagger documentation available at:
 [`📂/json`](/json/)
 
+---
+
+## Metrics
+
+
+ ## Comand: docker images
+
+```bash
+  REPOSITORY          TAG       IMAGE ID       CREATED          SIZE
+  pruebafastapi-app   latest    357b3a3ed928   10 minutes ago   161MB
+```
+
+
+
+  ## Comand: docker stats 
+  
+```bash 
+CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O    PIDS
+ca2e5e7278f7   python_container   0.10%     31.15MiB / 18.94GiB   0.16%     23.4kB / 126B   0B / 135kB   5
+
+
+```
