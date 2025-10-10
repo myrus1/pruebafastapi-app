@@ -11,3 +11,4 @@ def read_root():
   "location": "Argentina 🇦🇷",
   "status": "Work in progress"
 }
+
